@@ -1,0 +1,2 @@
+This is a simple react agent. It tricks the LLM to form a loop of messages between human and AI to improve a twitter publication. It has the following diagram:
+![Diagram](ReactAgent_diagram.png "React/Critic Graph")
