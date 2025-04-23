@@ -36,7 +36,6 @@ flow.add_edge(ACT, AGENT_REASON)
 
 app = flow.compile()
 # app.get_graph().draw_mermaid_png(output_file_path="graph.png", draw_method=MermaidDrawMethod.API)
-app.get_graph().draw_mermaid_png(output_file_path="graph.png", draw_method=MermaidDrawMethod.API)
 
 if __name__ == "__main__":
     print("Hello ReAct with LangGraph")
